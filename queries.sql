@@ -27,6 +27,5 @@
 USE cardealershipdatabase;
 SELECT s.*
 FROM sales_contracts s
-JOIN inventory i ON s.VIN = i.VIN
-WHERE i.dealership_id = 1
-AND s.sale_date BETWEEN '2025-06-07' AND '2025-02-20';
+JOIN inventory i ON s.VIN = i.VIN;
+-- I dont know what wrong i tried to ask chatgpt for some pointers but im a bit confused.
